@@ -8,6 +8,7 @@ from beebot.body import Body
 from beebot.config import Config
 from beebot.models.database_models import initialize_db
 
+from agentops import Client
 
 def parse_args():
     parser = argparse.ArgumentParser(description="BeeBot CLI tool")
